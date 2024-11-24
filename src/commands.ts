@@ -56,7 +56,7 @@ const bun: AgentCommands = {
 
 const deno: AgentCommands = {
   'agent': ['deno', 0],
-  'run': ['deno', 'run', 0],
+  'run': ['deno', 'task', 0],
   'install': ['deno', 'install', 0],
   'frozen': ['deno', 'install', '--frozen'],
   'global': ['deno', 'install', '-g', 0],
